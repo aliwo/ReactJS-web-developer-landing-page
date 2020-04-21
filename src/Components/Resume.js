@@ -5,14 +5,12 @@ class Resume extends Component {
   render() {
     if(this.props.data){
 
-      var answers = this.props.data.education.map(function(edu){
-         return <div key={edu.school} className="row item">
+      var answer = this.props.data.answers.map(function(ans){
+         return <div key={ans.title} className="row item">
             <div className="twelve columns">
-               <h3>{edu.school}</h3>
-               <p className="info">{edu.degree} <span>&bull;</span> <em className="date">{edu.graduated}</em></p>
-               <p>
-                 {edu.description}
-               </p>
+               <h3>{ans.title}</h3>
+               <p className="info">{ans.phrase} <span>&bull;</span> <em className="date">{ans.phraseBy}</em></p>
+               <p>{ans.description}</p>
             </div>
          </div>
        });
@@ -50,6 +48,12 @@ class Resume extends Component {
     return (
       <section id="resume">
 
+   <div className="row answer">
+      <div className="three columns header-col">
+         <h1><span>Answer</span></h1><br />
+      </div>
+        {answer}
+   </div>
    <div className="row education">
       <div className="three columns header-col">
          <h1><span>Education</span></h1><br />
@@ -60,7 +64,7 @@ class Resume extends Component {
       <div className="three columns header-col">
          <h1><span>Work</span></h1><br />
       </div>
-            {work}
+        {work}
    </div>
    <div className="row skill">
       <div className="three columns header-col">
