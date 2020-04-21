@@ -1,17 +1,19 @@
 {
   "main": {
-    "phrase": "훌륭한 개발자란 무엇인가",
-    "name":"Kelvin Mbewe",
+    "title": "훌륭한 개발자란 무엇인가",
+    "name":"정승원",
     "occupation":"Software developer",
-    "description":"I design and program websites and web applications of all types.",
+    "description1": "어떤 개발자가 되어야 하는가?  ",
+    "descriptionHighlight": "수 많은 고민과 스스로 내린 답,",
+    "description2": "지금 여기에서 소개합니다.",
     "image":"profilepic.jpg",
-    "bio":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
-    "email": "kisskeo@gmail.com",
-    "phone": "555-555-7892",
+    "bio": "프로그래밍 동아리에서 면접관으로 여러 번의 면접을 진행하면서 계속 그 답을 찾으려고 했던 질문은 \"훌륭한 개발자란 도대체 어떤 개발자인가?\" 였습니다. 알고리즘을 잘 푸는 사람? 프레임워크에 대한 깊은 이해를 가진 사람? 한 마디로 말하긴 어렵지만, 제 자신만의 개발자 상을 갖게 되었습니다.",
+    "email": "recordable0711@gmail.com",
+    "phone": "010-2238-0476",
     "address":{
-      "street":"Storgatan 78 A-F",
-      "city":"Stockholm",
-      "state":"ST",
+      "street":"",
+      "city":"고양시",
+      "state":"강석로",
       "zip": "07643"
     },
     "website": "https://github.com/getwebem",
@@ -55,58 +57,82 @@
     ]
   },
   "resume":{
+    "answers": [
+      {
+        "title": "건설적 귀차니즘",
+        "phrase": "고착화된 비효율성",
+        "phraseBy": "watcha 기술 블로그",
+        "description": "더 효율적이게 일할 수 있는데 당장 바쁘다는 이유로 자동화 하지 않는 일이 없어야 합니다."
+      }
+    ],
     "education":[
       {
-        "school":"University of Tech",
-        "degree":"Master in JavaScript",
-        "graduated":"April 2017",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
-      },
-      {
-        "school":"School of Developers",
-        "degree":"B.A. Degree in Graphic Design",
-        "graduated":"March 2013",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "school": "인천대학교",
+        "degree": "무역학부",
+        "graduated": "March 2021",
+        "description": "신학대학교에 불합격하고 성적에 맞추어 입학한 무역학부에서 새로운 길을 찾기 위해 애썼습니다. 1학년 GPA 4.5 를 받을 정도로 열심이었으나, 프로그래밍을 시작하고 그 모든 성적이 쓸모 없게 되었더라도 단 한번도 후회한 적은 없습니다. 아름다운 코드를 설계하는 것이 자랑스럽고, 내가 hello 할 때 connection successful 을 되돌려 주는 mysql 서버는 사랑스럽기 까지 합니다."
       }
     ],
     "work":[
       {
-        "company":"Big Web AB",
-        "title":"Senior Senior Web Developer ",
-        "years":"March 2010 - Present",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "company": "Movin'n Culture",
+        "title": "안드로이드 클라이언트, Flask 서버",
+        "years": "March 2017 - June 2017",
+        "description": "SK 청년비상 2기 창업동아리 입니다. "
       },
       {
-        "company":"Softwares Corp.",
-        "title":"Junior Software Developer",
-        "years":"March 2007 - February 2010",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "company":"레터플라이",
+        "title":"풀스택 개발",
+        "years":"August 2017 - May 2018",
+        "description":"웹 에디터로 쓰는 사랑의 편지"
+      },
+      {
+        "company":"사다리쿡",
+        "title":"Flask 서버, Jquery 관리자 페이지 담당",
+        "years":"June 2018 - July 2019",
+        "description": "사다리차 간편배차 어플리케이션"
+      },
+      {
+        "company":"BUV",
+        "title":"Flask 서버, Vue 관리자 페이지 담당",
+        "years":"Febuary 2019 - April 2020",
+        "description":"버스킹 라이브 SNS 입니다."
+      },
+      {
+        "company": "ChocoPY",
+        "title": "원숭이도 따라하는 파이썬 스터디",
+        "years": "March 2007 - February 2010",
+        "description": "동아리에서 스터디 강사를 맡아 1년 동안 진행했습니다."
       }
     ],
     "skills":[
       {
-        "name":"JavaScript",
-        "level":"60%"
+        "name":"Flask",
+        "level":"85%"
       },
       {
-        "name":"Angular.JS",
-        "level":"78%"
+        "name":"Kubernetes",
+        "level":"70%"
       },
       {
-        "name":"React.JS",
-        "level":"90%"
-      },
-      {
-        "name":"CSS3",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"Node.JS",
+        "name":"Docker",
         "level":"50%"
+      },
+      {
+        "name":"Vue",
+        "level":"50%"
+      },
+      {
+        "name":"React",
+        "level":"50%"
+      },
+      {
+        "name":"English (TOEIC 960)",
+        "level":"90%"
+      },
+      {
+        "name":"Japanese (JLPT N3)",
+        "level":"30%"
       }
     ]
   },
