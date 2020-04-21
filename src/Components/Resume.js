@@ -4,36 +4,49 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
     if(this.props.data){
-     var education = this.props.data.education.map(function(edu){
-       return <div key={edu.school} className="row item">
-          <div className="twelve columns">
-             <h3>{edu.school}</h3>
-             <p className="info">{edu.degree} <span>&bull;</span> <em className="date">{edu.graduated}</em></p>
-             <p>
-               {edu.description}
-             </p>
-          </div>
-       </div>
-     });
 
-     var work = this.props.data.work.map(function(job){
-       return <div key={job.company} className="row item">
-          <div className="twelve columns">
-             <h3>{job.company}</h3>
-             <p className="info">{job.title}<span>&bull;</span> <em className="date">{job.years}</em></p>
+      var answers = this.props.data.education.map(function(edu){
+         return <div key={edu.school} className="row item">
+            <div className="twelve columns">
+               <h3>{edu.school}</h3>
+               <p className="info">{edu.degree} <span>&bull;</span> <em className="date">{edu.graduated}</em></p>
+               <p>
+                 {edu.description}
+               </p>
+            </div>
+         </div>
+       });
 
-             <p>
-             {job.description}
-             </p>
-          </div>
-       </div>
-     });
+      var education = this.props.data.education.map(function(edu){
+         return <div key={edu.school} className="row item">
+            <div className="twelve columns">
+               <h3>{edu.school}</h3>
+               <p className="info">{edu.degree} <span>&bull;</span> <em className="date">{edu.graduated}</em></p>
+               <p>
+                 {edu.description}
+               </p>
+            </div>
+         </div>
+       });
 
-     var skills = this.props.data.skills.map(function(skill){
-       var className = 'bar-expand '+skill.name.toLowerCase();
-       return <li key={skill.name}><span style={{width:skill.level}} className={className}></span><em>{skill.name}</em></li>
-     });
-   }
+      var work = this.props.data.work.map(function(job){
+         return <div key={job.company} className="row item">
+            <div className="twelve columns">
+               <h3>{job.company}</h3>
+               <p className="info">{job.title}<span>&bull;</span> <em className="date">{job.years}</em></p>
+
+               <p>
+               {job.description}
+               </p>
+            </div>
+         </div>
+       });
+
+      var skills = this.props.data.skills.map(function(skill){
+         var className = 'bar-expand '+skill.name.toLowerCase();
+         return <li key={skill.name}><span style={{width:skill.level}} className={className}></span><em>{skill.name}</em></li>
+       });
+    }
     return (
       <section id="resume">
 
