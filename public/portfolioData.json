@@ -60,9 +60,19 @@
     "answers": [
       {
         "title": "건설적 귀차니즘",
-        "phrase": "고착화된 비효율성",
+        "phrase": "한가지 우려는 문자 그대로 비효율의 숙달화다...",
         "phraseBy": "watcha 기술 블로그",
-        "description": "더 효율적이게 일할 수 있는데 당장 바쁘다는 이유로 자동화 하지 않는 일이 없어야 합니다."
+        "description": "종종 개발자의 덕목으로도 여겨지는 '게으름'은 '매일의 출근을 견디지 못해 함'을 의미하는 것은 아닌 것 같습니다. 제가 정의하는 개발자로서의 '게으름'은 '충분히 자동화할 수 있는 일을 당장 시간이 없어서 개선하지 않고 늘 하던 방식대로 하는 것을 싫어함' 입니다. 그런 의미에서 저는 게으르고, 노가다를 몹시 싫어합니다. 뻔히 보이는 비효율을 개선하지 않고 넘어가는데 찝찝함을 느낍니다. 레터플라이에서 일할 때에는 '셀레니움 자동화 결제', '데이터베이스를 자유자재로 연결하는 Conv 데코레이터' 등으로 제 게으름(?)을 뽐내 보았습니다. ",
+        "ref": [],
+        "refHidden1": "나만 보는 링크: https://medium.com/watcha/%EC%99%93%EC%B1%A0%EA%B0%80-%EB%B9%84%ED%9A%A8%EC%9C%A8%EC%9D%98-%EC%88%99%EB%8B%AC%ED%99%94%EB%A5%BC-%EC%97%86%EC%95%A0%EB%8A%94-%EB%B0%A9%EB%B2%95-f608e51bd09a"
+      },
+      {
+        "title": "건설적 귀차니즘",
+        "phrase": "한가지 우려는 문자 그대로 비효율의 숙달화다...",
+        "phraseBy": "watcha 기술 블로그",
+        "description": "종종 개발자의 덕목으로도 여겨지는 '게으름'은 '매일의 출근을 견디지 못해 함'을 의미하는 것은 아닌 것 같습니다. 제가 정의하는 개발자로서의 '게으름'은 '충분히 자동화할 수 있는 일을 당장 시간이 없어서 개선하지 않고 늘 하던 방식대로 하는 것을 싫어함' 입니다. 그런 의미에서 저는 게으르고, 노가다를 몹시 싫어합니다. 뻔히 보이는 비효율을 개선하지 않고 넘어가는데 찝찝함을 느낍니다. 레터플라이에서 일할 때에는 '셀레니움 자동화 결제', '데이터베이스를 자유자재로 연결하는 Conv 데코레이터' 등으로 제 게으름(?)을 뽐내 보았습니다. ",
+        "ref": [],
+        "refHidden1": "나만 보는 링크: https://medium.com/watcha/%EC%99%93%EC%B1%A0%EA%B0%80-%EB%B9%84%ED%9A%A8%EC%9C%A8%EC%9D%98-%EC%88%99%EB%8B%AC%ED%99%94%EB%A5%BC-%EC%97%86%EC%95%A0%EB%8A%94-%EB%B0%A9%EB%B2%95-f608e51bd09a"
       }
     ],
     "education":[
@@ -106,45 +116,26 @@
       }
     ],
     "skills":[
-      {
-        "name":"Flask",
-        "level":"85%"
-      },
-      {
-        "name":"Kubernetes",
-        "level":"70%"
-      },
-      {
-        "name":"Docker",
-        "level":"50%"
-      },
-      {
-        "name":"Vue",
-        "level":"50%"
-      },
-      {
-        "name":"React",
-        "level":"50%"
-      },
-      {
-        "name":"English (TOEIC 960)",
-        "level":"90%"
-      },
-      {
-        "name":"Japanese (JLPT N3)",
-        "level":"30%"
-      }
+      {"name":"Flask", "level":"85%"},
+      {"name":"SqlAlchemy", "level":"85%"},
+      {"name":"Kubernetes", "level":"70%"},
+      {"name":"Git", "level":"65%"},
+      {"name":"Docker", "level":"50%"},
+      {"name":"Vue", "level":"50%"},
+      {"name":"React", "level":"50%"},
+      {"name":"English (TOEIC 960)", "level":"90%"},
+      {"name":"Japanese (JLPT N3)", "level":"30%"}
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Coffee Cup",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustrator",
-        "tags":"Branding, Web Design",
+        "title":"셀레니움 자동 결제",
+        "description":"레터플라이",
+        "category":"자동화",
+        "tags":"Automation",
         "image":"coffee.jpg",
-        "url":"http://port1.com",
+        "url":"",
         "modal":"#modal-01"
       },
       {
@@ -223,5 +214,8 @@
         "user":"Steve Smith"
       }
     ]
-  }
+  },
+  "modals": [
+    {"id": "selenium-auto", "title": "셀레니움 자동화", "description":  "한 번만 실행하면..."}
+  ]
 }

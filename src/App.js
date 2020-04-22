@@ -7,6 +7,7 @@ import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
 import Testimonials from './Components/Testimonials';
+import Modal from './Components/Modal';
 import './App.css';
 
 class App extends Component {
@@ -48,6 +49,7 @@ class App extends Component {
         <Testimonials  data={this.state.portfolioData.testimonials} />
         <Contact data={this.state.portfolioData.main} />
         <Footer />
+        <Modal data={this.state.portfolioData.modals} />
       </div>
     );
   }
