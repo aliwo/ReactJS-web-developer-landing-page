@@ -1,13 +1,13 @@
 {
   "main": {
-    "title": "훌륭한 개발자란 무엇인가",
+    "title": "개발의 끝은 어디인가",
     "name":"정승원",
     "occupation":"Software developer",
-    "description1": "어떤 개발자가 되어야 하는가?  ",
+    "description1": "훌륭한 개발자란 무엇일까?  ",
     "descriptionHighlight": "수 많은 고민과 스스로 내린 답,",
     "description2": "지금 여기에서 소개합니다.",
     "image":"profilepic.jpg",
-    "bio": "프로그래밍 동아리에서 면접관으로 여러 번의 면접을 진행하면서 계속 그 답을 찾으려고 했던 질문은 \"훌륭한 개발자란 도대체 어떤 개발자인가?\" 였습니다. 알고리즘을 잘 푸는 사람? 프레임워크에 대한 깊은 이해를 가진 사람? 한 마디로 말하긴 어렵지만, 제 자신만의 개발자 상을 갖게 되었습니다.",
+    "bio": "",
     "email": "recordable0711@gmail.com",
     "phone": "010-2238-0476",
     "address":{
@@ -67,12 +67,25 @@
         "refHidden1": "나만 보는 링크: https://medium.com/watcha/%EC%99%93%EC%B1%A0%EA%B0%80-%EB%B9%84%ED%9A%A8%EC%9C%A8%EC%9D%98-%EC%88%99%EB%8B%AC%ED%99%94%EB%A5%BC-%EC%97%86%EC%95%A0%EB%8A%94-%EB%B0%A9%EB%B2%95-f608e51bd09a"
       },
       {
-        "title": "건설적 귀차니즘",
+        "title": "문제해결능력",
         "phrase": "한가지 우려는 문자 그대로 비효율의 숙달화다...",
         "phraseBy": "watcha 기술 블로그",
-        "description": "종종 개발자의 덕목으로도 여겨지는 '게으름'은 '매일의 출근을 견디지 못해 함'을 의미하는 것은 아닌 것 같습니다. 제가 정의하는 개발자로서의 '게으름'은 '충분히 자동화할 수 있는 일을 당장 시간이 없어서 개선하지 않고 늘 하던 방식대로 하는 것을 싫어함' 입니다. 그런 의미에서 저는 게으르고, 노가다를 몹시 싫어합니다. 뻔히 보이는 비효율을 개선하지 않고 넘어가는데 찝찝함을 느낍니다. 레터플라이에서 일할 때에는 '셀레니움 자동화 결제', '데이터베이스를 자유자재로 연결하는 Conv 데코레이터' 등으로 제 게으름(?)을 뽐내 보았습니다. ",
-        "ref": [],
-        "refHidden1": "나만 보는 링크: https://medium.com/watcha/%EC%99%93%EC%B1%A0%EA%B0%80-%EB%B9%84%ED%9A%A8%EC%9C%A8%EC%9D%98-%EC%88%99%EB%8B%AC%ED%99%94%EB%A5%BC-%EC%97%86%EC%95%A0%EB%8A%94-%EB%B0%A9%EB%B2%95-f608e51bd09a"
+        "description": " ",
+        "ref": []
+      },
+      {
+        "title": "코드의 아름다움",
+        "phrase": "코드 품질을 측정하는 유일한 척도 = 분 당 내지르는 wtf! 횟수",
+        "phraseBy": "로버트 마틴(클린 코드)",
+        "description": "파이썬 스터디에서 학생들을 가르치다 보면 \"빠르게 돌아가면 장땡 아니야?\" 라고 질문하며 아름답게 코드를 작성해야 하는 이유에 대해 의문을 제기하는 친구들이 몇 있었습니다. 놀라운 것은 현업에 계신 선배님들 중에서도, 외주를 주는 사장님들 중에서도 그렇게 생각하시는 분들이 종종 있었다는 것입니다. 하지만 로버트 마틴이 잘 지적했듯 우리는 백지에 코드를 작성하는 시간 보다. 작성된 코드를 읽고 수정하는데에 훨씬 많은 시간을 소요합니다. 저는 \"헤드 퍼스트 디자인 패턴\" 과 \"클린코드\" 에 깊은 감명을 받았습니다. 레터플라이에서 3000줄 짜리 결제 모듈을 2000줄로 줄여보면서 개발 부채의 파괴력을 절감했습니다. 사다리쿡에서 \"회원등급시스템\" 을 개발할 때 state 패턴을 사용해서 구현해 보기도 하였습니다.",
+        "ref": []
+      },
+      {
+        "title": "겸손",
+        "phrase": "교만은 패망의 선봉이요 거만한 마음은 넘어짐의 앞잡이니라",
+        "phraseBy": "솔로몬",
+        "description": "끊임없이 공부하는 것이야 말로 겸손의 증명이라고 생각합니다. 한 프로젝트에서 다른 프로젝트로 넘어갈 때 마다 Angular를 배우고, 또 React 를 배우고, Kubernetes 를 배우면서 \"이렇게 간편하다니!\" 와 \"내가 이렇게 무지했다니!\"의 연속이었습니다. 계속해서 새로운 것들을 공부하는 것이 좋고, 그러한 직업을 선택했음이 자랑스럽습니다. 한 편, 자신이 틀렸을 수 있다고 생각하는 것도 겸손이라고 생각합니다. ",
+        "ref": []
       }
     ],
     "education":[
@@ -139,12 +152,12 @@
         "modal":"#modal-01"
       },
       {
-        "title":"Console",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Design",
-        "tags":"Branding, Web Development",
-        "image":"console.jpg",
-        "url":"http://port2.com",
+        "title":"아두이노 스마트화분",
+        "description":"Arduino, SocketIO, Android 를 활용한 원격 화분관리",
+        "category":"Arduino",
+        "tags":"SocketIO",
+        "image":"mendel.jpg",
+        "url":"",
         "modal":"#modal-02"
       },
       {
