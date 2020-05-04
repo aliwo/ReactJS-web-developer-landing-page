@@ -149,8 +149,7 @@
         "category":"자동화",
         "tags":"Automation",
         "image":"coffee.jpg",
-        "url":"",
-        "modal":"#modal-01"
+        "modal": "selenium-auto"
       },
       {
         "title":"아두이노 스마트화분",

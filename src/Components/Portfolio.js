@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { genModalOpen } from '../helper/modelHelper'
 
 class Portfolio extends Component {
   render() {
@@ -8,7 +8,7 @@ class Portfolio extends Component {
        var imageUrl = 'images/portfolio/'+project.image;
        return <div key={project.modal} className="columns portfolio-item">
           <div className="item-wrap">
-             <a href={project.modal} title="">
+             <a onClick={genModalOpen(project.modal)}>
                 <img alt="" src={imageUrl} />
                 <div className="overlay">
                    <div className="portfolio-item-meta">
