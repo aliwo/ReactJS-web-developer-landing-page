@@ -130,73 +130,50 @@
     "projects": [
       {
         "title":"셀레니움 자동 결제",
-        "description":"레터플라이",
         "category":"자동화",
-        "tags":"Automation",
         "image":"coffee.jpg",
         "modal": "selenium-auto"
       },
       {
         "title":"아두이노 스마트화분",
-        "description":"Arduino, SocketIO, Android 를 활용한 원격 화분관리",
         "category":"Arduino",
-        "tags":"SocketIO",
         "image":"mendel.jpg",
-        "url":"",
         "modal":"#modal-02"
       },
       {
-        "title":"Judah",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
+        "title":"Buv",
+        "category":"Flask, AWS",
         "image":"judah.jpg",
-        "url":"http://port3.com",
         "modal":"#modal-03"
       },
       {
         "title":"Into The Light",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
         "category":"Photography",
-        "tags":"Photography, Design",
         "image":"into-the-light.jpg",
-        "url":"http://port4.com",
         "modal":"#modal-04"
       },
       {
         "title":"Farmer Boy",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
         "category":"Branding",
-        "tags":"Branding, Web Design",
         "image":"farmerboy.jpg",
-        "url":"http://port5.com",
         "modal":"#modal-05"
       },
       {
         "title":"Girl",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
         "category":"Photography",
-        "tags":"Photography, Graphic Design",
         "image":"girl.jpg",
-        "url":"http://port6.com",
         "modal":"#modal-06"
       },
       {
         "title":"Origami",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
         "category":"Illustration",
-        "tags":"Branding, Illustration",
         "image":"origami.jpg",
-        "url":"http://port7.com",
         "modal":"#modal-07"
       },
       {
         "title":"Retrocam",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
         "category":"Web Development",
-        "tags":"Photography",
         "image":"retrocam.jpg",
-        "url":"http://port8.com",
         "modal":"#modal-08"
       }
     ]
