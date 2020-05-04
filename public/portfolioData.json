@@ -7,7 +7,7 @@
     "descriptionHighlight": "수 많은 고민과 스스로 내린 답,",
     "description2": "지금 여기에서 소개합니다.",
     "image":"profilepic.jpg",
-    "bio": "",
+    "bio": "스물 다섯 살, 한창 쿠버네티스에 푹 빠질 나이다. 엄마가 밥을 먹으라 해도 좀처럼 방에서 나오지 않는다. 큼지막한 모니터의 반 쪽에는 파이어폭스가, 다른 반 쪽에는 터미널이 열려 있다. 검은 화면에 하얀 커서만 깜박인다. 흐음... 턱을 어루만진다. 키보드를 만진 손으로 자꾸 얼굴을 문질러서 여드름이 나지만 집중할때면 나오는 습관이라 고치기가 어렵다. 마지막 남은 테스트 문제가 풀릴듯 풀리지 않는 모양이다. \"cluster ip 의 대역대를 지정하는 옵션이 service-cluster-ip-range 이였던가...?\", 엄마가 다시 한 번 소리를 지른다. \"밥먹으라고!\" 그렇게 매일 매일 불효 스택을 쌓고 있다.",
     "email": "recordable0711@gmail.com",
     "phone": "010-2238-0476",
     "address":{
@@ -20,23 +20,13 @@
     "resumedownload":"http://something.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"google-plus",
         "url":"http://googleplus.com",
         "className":"fa fa-google-plus"
       },
       {
         "name":"linkedin",
-        "url":"http://linkedin.com",
+        "url":"https://www.linkedin.com/in/%EC%8A%B9%EC%9B%90-%EC%A0%95-a420a3100/",
         "className":"fa fa-linkedin"
       },
       {
@@ -48,11 +38,6 @@
         "name":"github",
         "url":"http://github.com",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -62,7 +47,7 @@
         "title": "건설적 귀차니즘",
         "phrase": "한가지 우려는 문자 그대로 비효율의 숙달화다...",
         "phraseBy": "watcha 기술 블로그",
-        "description": "종종 개발자의 덕목으로도 여겨지는 '게으름'은 '매일의 출근을 견디지 못해 함'을 의미하는 것은 아닌 것 같습니다. 제가 정의하는 개발자로서의 '게으름'은 '충분히 자동화할 수 있는 일을 당장 시간이 없어서 개선하지 않고 늘 하던 방식대로 하는 것을 싫어함' 입니다. 그런 의미에서 저는 게으르고, 노가다를 몹시 싫어합니다. 뻔히 보이는 비효율을 개선하지 않고 넘어가는데 찝찝함을 느낍니다. 레터플라이에서 일할 때에는 <a style='cursor: pointer' onclick=document.getElementById('selenium-auto').style.display='block'>'셀레니움 자동화 결제'</a>, '데이터베이스를 자유자재로 연결하는 Conv 데코레이터' 등으로 제 게으름(?)을 뽐내 보았습니다. ",
+        "description": "종종 개발자의 덕목으로도 여겨지는 '게으름'은 '매일의 출근을 견디지 못해 함'을 의미하는 것은 아닌 것 같습니다. 제가 정의하는 개발자로서의 '게으름'은 '충분히 자동화할 수 있는 일을 당장 시간이 없어서 개선하지 않고 늘 하던 방식대로 하는 것을 싫어함' 입니다. 그런 의미에서 저는 게으르고, 노가다를 몹시 싫어합니다. 뻔히 보이는 비효율을 개선하지 않고 넘어가는데 찝찝함을 느낍니다. 레터플라이에서 일할 때에는 <a style='cursor: pointer' onclick=document.getElementById('selenium-auto').style.display='block'>'셀레니움 자동화 결제'</a>, 데이터베이스를 자유자재로 연결하는 'Conv 데코레이터' 등으로 제 게으름(?)을 뽐내 보았습니다. ",
         "ref": [],
         "refHidden1": "나만 보는 링크: https://medium.com/watcha/%EC%99%93%EC%B1%A0%EA%B0%80-%EB%B9%84%ED%9A%A8%EC%9C%A8%EC%9D%98-%EC%88%99%EB%8B%AC%ED%99%94%EB%A5%BC-%EC%97%86%EC%95%A0%EB%8A%94-%EB%B0%A9%EB%B2%95-f608e51bd09a",
         "refHidden2": "개발이 아니라 개발하는 과정을 디버깅 해야 한다. https://www.youtube.com/watch?v=fHyTA-UIcqs (개발자가 갖추어야 할 9가지 기술, 박종천)"
