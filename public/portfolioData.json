@@ -189,8 +189,5 @@
         "user":"Steve Smith"
       }
     ]
-  },
-  "modals": [
-    {"id": "selenium-auto", "title": "셀레니움 자동화", "description":  "한 번만 실행하면..."}
-  ]
+  }
 }

@@ -1,6 +1,9 @@
 export function genModalOpen(id_) {
   return () => {
     const modal = document.getElementById(id_);
+    if (!modal) {
+      return
+    }
     modal.style.display = 'block';
   }
 }
