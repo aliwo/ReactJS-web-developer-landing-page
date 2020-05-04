@@ -138,7 +138,7 @@
         "title":"아두이노 스마트화분",
         "category":"Arduino",
         "image":"mendel.jpg",
-        "modal":"#modal-02"
+        "modal":"mendel"
       },
       {
         "title":"Buv",
