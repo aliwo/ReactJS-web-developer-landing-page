@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { genModalOpen } from '../helper/modelHelper'
 
 class Resume extends Component {
   render() {
@@ -10,7 +10,7 @@ class Resume extends Component {
             <div className="twelve columns">
                <h3>{ans.title}</h3>
                <p className="info">{ans.phrase} <span>&bull;</span> <em className="date">{ans.phraseBy}</em></p>
-               <p>{ans.description}</p>
+               <p dangerouslySetInnerHTML={{__html: ans.description}}/>
             </div>
          </div>
        });
