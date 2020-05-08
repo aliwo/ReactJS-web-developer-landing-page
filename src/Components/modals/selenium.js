@@ -6,7 +6,7 @@ class Selenium extends Component {
 
   render() {
     return (
-      <Base id="selenium-auto" title="Letterfly">
+      <Base id="letterfly" title="Letterfly">
 
         <img src={ltf} className="modal-image"/>
 
