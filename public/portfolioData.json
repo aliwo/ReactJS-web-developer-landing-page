@@ -80,7 +80,7 @@
         "company": "Movin'n Culture",
         "title": "안드로이드 클라이언트, Flask 서버",
         "years": "March 2017 - June 2017",
-        "description": "SK 청년비상 2기 창업동아리 입니다. "
+        "description": "SK 청년비상 2기 창업동아리. 모듈형 IOT 화분 Mendel 을 기획했습니다."
       },
       {
         "company":"레터플라이",
@@ -98,13 +98,13 @@
         "company":"BUV",
         "title":"Flask 서버, Vue 관리자 페이지 담당",
         "years":"Febuary 2019 - April 2020",
-        "description":"버스킹 라이브 SNS 입니다."
+        "description":"버스킹 라이브 SNS."
       },
       {
         "company": "ChocoPY",
-        "title": "원숭이도 따라하는 파이썬 스터디",
+        "title": "강사",
         "years": "March 2007 - February 2010",
-        "description": "동아리에서 스터디 강사를 맡아 1년 동안 진행했습니다."
+        "description": "원숭이도 따라하는 파이썬 스터디"
       }
     ],
     "skills":[
