@@ -8,7 +8,7 @@ class Selenium extends Component {
     return (
       <Base id="letterfly" title="Letterfly">
 
-        <img src={ltf} className="modal-image"/>
+        <img src={ltf} alt="ltf" className="modal-image"/>
 
         <h1><span>셀레니움 결제테스트 자동화</span></h1>
         <svg xmlns="http://www.w3.org/2000/svg" width="1000px" height="auto" viewBox="0 0 592.745 49.209">
@@ -25,8 +25,6 @@ class Selenium extends Component {
             <text transform="translate(631.224 218.941)" fill="#fff" font-size="12" font-family="NanumBarunGothicBold, NanumBarunGothic"><tspan x="0" y="0">결제 완료!</tspan></text>
           </g>
         </svg>
-
-        <h1></h1>
 
       </Base>
     )

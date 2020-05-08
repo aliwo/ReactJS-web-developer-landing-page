@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { genModalOpen } from '../helper/modelHelper'
 
 class Resume extends Component {
   render() {
