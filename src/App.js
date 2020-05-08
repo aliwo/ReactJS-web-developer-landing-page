@@ -20,7 +20,7 @@ class App extends Component {
    getPortfolioData(){
      //Ajax request
     $.ajax({
-      url: 'http://localhost:3000/portfolioData.json',
+      url: process.env.PUBLIC_URL + '/portfolioData.json',
       dataType: 'json',
       cache: false,
       success: function(data){
