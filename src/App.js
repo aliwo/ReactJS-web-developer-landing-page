@@ -44,12 +44,13 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.main} />
-        <Resume data={this.state.portfolioData.resume}  />
+        <Resume data={this.state.portfolioData.resume}>
+          <Modal data={this.state.portfolioData.modals} />
+        </Resume>
         <Portfolio data={this.state.portfolioData.portfolio} />
         <Testimonials  data={this.state.portfolioData.testimonials} />
         <Contact data={this.state.portfolioData.main} />
         <Footer />
-        <Modal data={this.state.portfolioData.modals} />
       </div>
     );
   }

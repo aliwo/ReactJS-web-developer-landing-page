@@ -9,7 +9,7 @@ class Base extends Component {
         <div className="modal-content">
           <div className="modal-header">
             <span className="close" onClick={genModalClose(this.props.id)}>&times;</span>
-            <h2>{this.props.title}</h2>
+            <h1><span>{this.props.title}</span></h1>
           </div>
           <div className="modal-body">
             {this.props.children}

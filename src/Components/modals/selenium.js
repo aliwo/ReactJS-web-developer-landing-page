@@ -5,7 +5,7 @@ class Selenium extends Component {
 
   render() {
     return (
-      <Base id="selenium-auto" title="셀레니움 결제 자동화">
+      <Base id="selenium-auto" title="Letterfly">
         <svg xmlns="http://www.w3.org/2000/svg" width="592.745" height="49.209" viewBox="0 0 592.745 49.209">
           <g id="" transform="translate(-124.37 -190.999)">
             <path d="M246.089,3292.048l.03-.02-16.1-24.589-2.8,1.831,1.878,2.868H124.37l13.041,19.956h0L124.37,3312.05H229.154l-1.786,2.8,2.819,1.8,4.45-6.987,11.481-17.568Z" transform="translate(0 -3076.441)" fill="#e1a61e"/>
