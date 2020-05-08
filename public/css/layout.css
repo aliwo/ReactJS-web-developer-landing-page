@@ -1040,6 +1040,11 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
 
+.modal-image {
+    width: 1000px;
+    margin-bottom: 40px;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
