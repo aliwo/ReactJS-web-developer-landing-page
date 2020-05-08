@@ -12,7 +12,7 @@ class Base extends Component {
             <h2>{this.props.title}</h2>
           </div>
           <div className="modal-body">
-            <p>{this.props.children}</p>
+            {this.props.children}
           </div>
         </div>
       </div>
