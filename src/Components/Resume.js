@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 
 const styles = theme => ({
   work: {
-    margin: '10px 0',
+    margin: '10px 20px',
     padding: '30px 10px'
   },
 });
