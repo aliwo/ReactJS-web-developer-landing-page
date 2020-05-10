@@ -48,19 +48,19 @@ class Resume extends Component {
       <section id="resume">
 
          <div className="row answer">
-            <div className="three columns header-col">
+            <div className="header-wrapper">
                <h1><span>Answers</span></h1><br />
             </div>
               {answer}
          </div>
          <div className="row education">
-            <div className="three columns header-col">
+            <div className="header-wrapper">
                <h1><span>Education</span></h1><br />
             </div>
               {education}
          </div>
          <div className="row work">
-            <div className="three columns header-col">
+            <div className="header-wrapper">
                <h1><span>Work</span></h1><br />
             </div>
               {work}
