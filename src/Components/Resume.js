@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+import { withStyles } from '@material-ui/styles';
+import Card from '@material-ui/core/Card';
+
+const styles = theme => ({
+  work: {
+    margin: '10px 0',
+    padding: '30px 10px'
+  },
+});
 
 class Resume extends Component {
   render() {
-    if(this.props.data){
+    const { classes } = this.props;
 
+    if(this.props.data){
       var answer = this.props.data.answers.map(function(ans){
          return <div key={ans.title} className="row item">
             <div className="twelve columns">
@@ -28,14 +38,13 @@ class Resume extends Component {
 
       var work = this.props.data.work.map(function(job){
          return <div key={job.company} className="row item">
-            <div className="twelve columns">
+            <Card variant="outlined" className={classes.work}>
                <h3>{job.company}</h3>
                <p className="info">{job.title}<span>&bull;</span> <em className="date">{job.years}</em></p>
-
                <p>
                {job.description}
                </p>
-            </div>
+            </Card>
          </div>
        });
 
@@ -88,4 +97,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default withStyles(styles)(Resume);
